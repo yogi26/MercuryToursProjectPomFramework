@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\HP\AppData\Local\Temp\testng-eclipse-1094728339\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.NewTours.WebPageTest.RegisterPageTest" hash-for-method="newRegisterTest(Ram, Aite, 1234567980, Ram, Pune, Pune1, Pune, Maharashtra, 112, India, ram@gmail.com, 12345, 12345)">newRegisterTest(Ram, Aite, 1234567980, Ram, Pune, Pune1, Pune, Maharashtra, 112, India, ram@gmail.com, 12345, 12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.NewTours.WebPageTest.RegisterPageTest" hash-for-method="newRegisterTest(Hamesh, Ite, 1234567980, Hamesh, Goa, Goa2, Goa, Goa, 112, India, hamesh@gmail.com, 12345, 12345)">newRegisterTest(Hamesh, Ite, 1234567980, Hamesh, Goa, Goa2, Goa, Goa, 112, India, hamesh@gmail.com, 12345, 12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.NewTours.WebPageTest.RegisterPageTest" hash-for-method="newRegisterTest(Geeta, Dite, 1234567980, Geeta, Hydrabad, Hydrabad4, Hydrabad, Telangana, 115, India, Geeta@gmail.co...)">newRegisterTest(Geeta, Dite, 1234567980, Geeta, Hydrabad, Hydrabad4, Hydrabad, Telangana, 115, India, Geeta@gmail.co...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.NewTours.WebPageTest.RegisterPageTest" hash-for-method="newRegisterTest(Mahesh, Gite, 1234567980, Mahesh, Mumbai, Mumbai2, Mumbai, Maharashtra, 117, India, mahesh@gmail.com...)">newRegisterTest(Mahesh, Gite, 1234567980, Mahesh, Mumbai, Mumbai2, Mumbai, Maharashtra, 117, India, mahesh@gmail.com...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.NewTours.WebPageTest.RegisterPageTest" hash-for-method="newRegisterTest(Ramesh, Fite, 1234567980, Ramesh, Delhi, Delhi3, Delhi, Delhi, 118, India, ram@gmail.com, 12345, 123...)">newRegisterTest(Ramesh, Fite, 1234567980, Ramesh, Delhi, Delhi3, Delhi, Delhi, 118, India, ram@gmail.com, 12345, 123...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.NewTours.WebPageTest.RegisterPageTest" hash-for-method="newRegisterTest(Seeta, Cite, 1234567980, Seeta, Delhi, Delhi3, Delhi, Delhi, 114, India, Seeta@gmail.com, 12345, 123...)">newRegisterTest(Seeta, Cite, 1234567980, Seeta, Delhi, Delhi3, Delhi, Delhi, 114, India, Seeta@gmail.com, 12345, 123...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.NewTours.WebPageTest.RegisterPageTest" hash-for-method="newRegisterTest(Ganesh, Eite, 1234567980, Ganesh, Pune, Pune1, Pune, Maharashtra, 116, India, ganesh@gmail.com, 1234...)">newRegisterTest(Ganesh, Eite, 1234567980, Ganesh, Pune, Pune1, Pune, Maharashtra, 116, India, ganesh@gmail.com, 1234...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.NewTours.WebPageTest.RegisterPageTest" hash-for-method="newRegisterTest(Gamesh, Hite, 1234567980, Gamesh, Hydrabad, Hydrabad4, Hydrabad, Telangana, 119, India, gamesh@gmail...)">newRegisterTest(Gamesh, Hite, 1234567980, Gamesh, Hydrabad, Hydrabad4, Hydrabad, Telangana, 119, India, gamesh@gmail...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.NewTours.WebPageTest.RegisterPageTest" hash-for-method="newRegisterTest(Shyam, Bite, 1234567980, Shyam, Mumbai, Mumbai2, Mumbai, Maharashtra, 113, India, Shyam@gmail.com, 1...)">newRegisterTest(Shyam, Bite, 1234567980, Shyam, Mumbai, Mumbai2, Mumbai, Maharashtra, 113, India, Shyam@gmail.com, 1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.NewTours.WebPageTest.RegisterPageTest" hash-for-method="verifyRegisterPageTitleTest">verifyRegisterPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.NewTours.WebPageTest.RegisterPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="newRegisterTest(Ram, Aite, 1234567980, Ram, Pune, Pune1, Pune, Maharashtra, 112, India, ram@gmail.com, 12345, 12345)">
+                  </a> <!-- newRegisterTest(Ram, Aite, 1234567980, Ram, Pune, Pune1, Pune, Maharashtra, 112, India, ram@gmail.com, 12345, 12345) -->
+                  <span class="method-name">newRegisterTest</span>
+                  <span class="parameters">(Ram, Aite, 1234567980, Ram, Pune, Pune1, Pune, Maharashtra, 112, India, ram@gmail.com, 12345, 12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newRegisterTest(Hamesh, Ite, 1234567980, Hamesh, Goa, Goa2, Goa, Goa, 112, India, hamesh@gmail.com, 12345, 12345)">
+                  </a> <!-- newRegisterTest(Hamesh, Ite, 1234567980, Hamesh, Goa, Goa2, Goa, Goa, 112, India, hamesh@gmail.com, 12345, 12345) -->
+                  <span class="method-name">newRegisterTest</span>
+                  <span class="parameters">(Hamesh, Ite, 1234567980, Hamesh, Goa, Goa2, Goa, Goa, 112, India, hamesh@gmail.com, 12345, 12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newRegisterTest(Geeta, Dite, 1234567980, Geeta, Hydrabad, Hydrabad4, Hydrabad, Telangana, 115, India, Geeta@gmail.co...)">
+                  </a> <!-- newRegisterTest(Geeta, Dite, 1234567980, Geeta, Hydrabad, Hydrabad4, Hydrabad, Telangana, 115, India, Geeta@gmail.co...) -->
+                  <span class="method-name">newRegisterTest</span>
+                  <span class="parameters">(Geeta, Dite, 1234567980, Geeta, Hydrabad, Hydrabad4, Hydrabad, Telangana, 115, India, Geeta@gmail.com, 12345, 12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newRegisterTest(Mahesh, Gite, 1234567980, Mahesh, Mumbai, Mumbai2, Mumbai, Maharashtra, 117, India, mahesh@gmail.com...)">
+                  </a> <!-- newRegisterTest(Mahesh, Gite, 1234567980, Mahesh, Mumbai, Mumbai2, Mumbai, Maharashtra, 117, India, mahesh@gmail.com...) -->
+                  <span class="method-name">newRegisterTest</span>
+                  <span class="parameters">(Mahesh, Gite, 1234567980, Mahesh, Mumbai, Mumbai2, Mumbai, Maharashtra, 117, India, mahesh@gmail.com, 12345, 12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newRegisterTest(Ramesh, Fite, 1234567980, Ramesh, Delhi, Delhi3, Delhi, Delhi, 118, India, ram@gmail.com, 12345, 123...)">
+                  </a> <!-- newRegisterTest(Ramesh, Fite, 1234567980, Ramesh, Delhi, Delhi3, Delhi, Delhi, 118, India, ram@gmail.com, 12345, 123...) -->
+                  <span class="method-name">newRegisterTest</span>
+                  <span class="parameters">(Ramesh, Fite, 1234567980, Ramesh, Delhi, Delhi3, Delhi, Delhi, 118, India, ram@gmail.com, 12345, 12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newRegisterTest(Seeta, Cite, 1234567980, Seeta, Delhi, Delhi3, Delhi, Delhi, 114, India, Seeta@gmail.com, 12345, 123...)">
+                  </a> <!-- newRegisterTest(Seeta, Cite, 1234567980, Seeta, Delhi, Delhi3, Delhi, Delhi, 114, India, Seeta@gmail.com, 12345, 123...) -->
+                  <span class="method-name">newRegisterTest</span>
+                  <span class="parameters">(Seeta, Cite, 1234567980, Seeta, Delhi, Delhi3, Delhi, Delhi, 114, India, Seeta@gmail.com, 12345, 12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newRegisterTest(Ganesh, Eite, 1234567980, Ganesh, Pune, Pune1, Pune, Maharashtra, 116, India, ganesh@gmail.com, 1234...)">
+                  </a> <!-- newRegisterTest(Ganesh, Eite, 1234567980, Ganesh, Pune, Pune1, Pune, Maharashtra, 116, India, ganesh@gmail.com, 1234...) -->
+                  <span class="method-name">newRegisterTest</span>
+                  <span class="parameters">(Ganesh, Eite, 1234567980, Ganesh, Pune, Pune1, Pune, Maharashtra, 116, India, ganesh@gmail.com, 12345, 12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newRegisterTest(Gamesh, Hite, 1234567980, Gamesh, Hydrabad, Hydrabad4, Hydrabad, Telangana, 119, India, gamesh@gmail...)">
+                  </a> <!-- newRegisterTest(Gamesh, Hite, 1234567980, Gamesh, Hydrabad, Hydrabad4, Hydrabad, Telangana, 119, India, gamesh@gmail...) -->
+                  <span class="method-name">newRegisterTest</span>
+                  <span class="parameters">(Gamesh, Hite, 1234567980, Gamesh, Hydrabad, Hydrabad4, Hydrabad, Telangana, 119, India, gamesh@gmail.com, 12345, 12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newRegisterTest(Shyam, Bite, 1234567980, Shyam, Mumbai, Mumbai2, Mumbai, Maharashtra, 113, India, Shyam@gmail.com, 1...)">
+                  </a> <!-- newRegisterTest(Shyam, Bite, 1234567980, Shyam, Mumbai, Mumbai2, Mumbai, Maharashtra, 113, India, Shyam@gmail.com, 1...) -->
+                  <span class="method-name">newRegisterTest</span>
+                  <span class="parameters">(Shyam, Bite, 1234567980, Shyam, Mumbai, Mumbai2, Mumbai, Maharashtra, 113, India, Shyam@gmail.com, 12345, 12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterPageTitleTest">
+                  </a> <!-- verifyRegisterPageTitleTest -->
+                  <span class="method-name">verifyRegisterPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\HP\AppData\Local\Temp\testng-eclipse-1094728339\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.NewTours.WebPageTest.RegisterPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'newRegisterTest')
+data.setCell(0, 2, 'com.NewTours.WebPageTest.RegisterPageTest')
+data.setCell(0, 3, 8058);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'newRegisterTest')
+data.setCell(1, 2, 'com.NewTours.WebPageTest.RegisterPageTest')
+data.setCell(1, 3, 6619);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'newRegisterTest')
+data.setCell(2, 2, 'com.NewTours.WebPageTest.RegisterPageTest')
+data.setCell(2, 3, 6259);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'newRegisterTest')
+data.setCell(3, 2, 'com.NewTours.WebPageTest.RegisterPageTest')
+data.setCell(3, 3, 6123);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'newRegisterTest')
+data.setCell(4, 2, 'com.NewTours.WebPageTest.RegisterPageTest')
+data.setCell(4, 3, 6060);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'newRegisterTest')
+data.setCell(5, 2, 'com.NewTours.WebPageTest.RegisterPageTest')
+data.setCell(5, 3, 5946);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'newRegisterTest')
+data.setCell(6, 2, 'com.NewTours.WebPageTest.RegisterPageTest')
+data.setCell(6, 3, 5716);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'newRegisterTest')
+data.setCell(7, 2, 'com.NewTours.WebPageTest.RegisterPageTest')
+data.setCell(7, 3, 5633);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'newRegisterTest')
+data.setCell(8, 2, 'com.NewTours.WebPageTest.RegisterPageTest')
+data.setCell(8, 3, 5527);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyRegisterPageTitleTest')
+data.setCell(9, 2, 'com.NewTours.WebPageTest.RegisterPageTest')
+data.setCell(9, 3, 1562);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 57 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.NewTours.WebPageTest.RegisterPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterPageTitleTest</span>
+                <span class="method-start">11240 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12805 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14112 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">newRegisterTest(Ram, Aite, 1234567980, Ram, Pune, Pune1, Pune, Maharashtra, 112, India, ram@gmail.com, 12345, 12345)</span>
+                <span class="method-start">20372 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26019 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">26070 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">newRegisterTest(Shyam, Bite, 1234567980, Shyam, Mumbai, Mumbai2, Mumbai, Maharashtra, 113, India, Shyam@gmail.com, 1...)</span>
+                <span class="method-start">31548 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39613 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">39675 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">newRegisterTest(Seeta, Cite, 1234567980, Seeta, Delhi, Delhi3, Delhi, Delhi, 114, India, Seeta@gmail.com, 12345, 123...)</span>
+                <span class="method-start">47071 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">53696 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">53765 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">newRegisterTest(Geeta, Dite, 1234567980, Geeta, Hydrabad, Hydrabad4, Hydrabad, Telangana, 115, India, Geeta@gmail.co...)</span>
+                <span class="method-start">60771 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">67041 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">69186 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">newRegisterTest(Ganesh, Eite, 1234567980, Ganesh, Pune, Pune1, Pune, Maharashtra, 116, India, ganesh@gmail.com, 1234...)</span>
+                <span class="method-start">77517 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">83248 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">83331 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">newRegisterTest(Mahesh, Gite, 1234567980, Mahesh, Mumbai, Mumbai2, Mumbai, Maharashtra, 117, India, mahesh@gmail.com...)</span>
+                <span class="method-start">90110 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">95651 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">95822 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">newRegisterTest(Ramesh, Fite, 1234567980, Ramesh, Delhi, Delhi3, Delhi, Delhi, 118, India, ram@gmail.com, 12345, 123...)</span>
+                <span class="method-start">101790 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">107864 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">108017 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">newRegisterTest(Gamesh, Hite, 1234567980, Gamesh, Hydrabad, Hydrabad4, Hydrabad, Telangana, 119, India, gamesh@gmail...)</span>
+                <span class="method-start">115937 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">122060 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">122237 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">newRegisterTest(Hamesh, Ite, 1234567980, Hamesh, Goa, Goa2, Goa, Goa, 112, India, hamesh@gmail.com, 12345, 12345)</span>
+                <span class="method-start">129134 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">135086 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
